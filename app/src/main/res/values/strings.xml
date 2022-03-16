@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CovidStatChecker</string>
+    <string name="test_pipeline">CovidStatChecker</string>
 </resources>
