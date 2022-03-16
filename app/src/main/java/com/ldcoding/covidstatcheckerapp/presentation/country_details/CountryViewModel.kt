@@ -7,8 +7,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ldcoding.covidstatcheckerapp.common.Constants
 import com.ldcoding.covidstatcheckerapp.common.Resource
-import com.ldcoding.covidstatcheckerapp.domain.model.Country
-import com.ldcoding.covidstatcheckerapp.domain.use_cases.get_countries.GetCountriesUseCase
 import com.ldcoding.covidstatcheckerapp.domain.use_cases.get_country.GetCountryUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
