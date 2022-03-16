@@ -2,9 +2,6 @@ package com.ldcoding.covidstatcheckerapp.domain.use_cases.get_country
 
 import com.ldcoding.covidstatcheckerapp.common.Resource
 import com.ldcoding.covidstatcheckerapp.data.remote.dto.CountriesDto
-import com.ldcoding.covidstatcheckerapp.data.remote.dto.toCountry
-import com.ldcoding.covidstatcheckerapp.domain.model.Country
-import com.ldcoding.covidstatcheckerapp.domain.model.CountryDetail
 import com.ldcoding.covidstatcheckerapp.domain.repository.CoronavirusRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
